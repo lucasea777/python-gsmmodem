@@ -39,10 +39,10 @@ Requirements
 How to install this package
 ---------------------------
 
-There are two ways to install ``python-gsmmodem-new`` package:
+There are multiple ways to install ``python-gsmmodem-new`` package:
 
-Automatic installation
-~~~~~~~~~~~~~~~~~~~~~~
+Automatic installation of the latest "stable" release from PyPI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
 
@@ -56,22 +56,28 @@ If you are utilising ``python-gsmmodem-new`` as part of another project,
 add it to your ``install_requires`` section of your ``setup.py`` file and
 upon your project's installation, it will be pulled in automatically.
 
-Manual installation from PyPI
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Manual installation of the latest "stable" release from PyPI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Download and extract the ``python-gsmmodem-new`` archive from `PyPI
-<https://pypi.python.org/pypi/python-gsmmodem-new>`_ for the current release
-version, or clone from GitHub::
-
-    git clone https://github.com/babca/python-gsmmodem.git
-
-Next, do this::
+Download a ``python-gsmmodem-new`` archive from `PyPI
+<https://pypi.python.org/pypi/python-gsmmodem-new>`_, extract it and install the package with command::
 
     python setup.py install
 
 Note that ``python-gsmmodem-new`` package relies on ``pyserial`` for serial communications: 
 http://pyserial.sourceforge.net
 
+Installation of the latest commit from GitHub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Clone from GitHub::
+
+    git clone https://github.com/babca/python-gsmmodem.git
+    cd python-gsmmodem/
+    python setup.py install
+
+Note that ``python-gsmmodem-new`` package relies on ``pyserial`` for serial communications: 
+http://pyserial.sourceforge.net
 
 Testing the package
 -------------------
